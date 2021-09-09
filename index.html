@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Structure: 1 all width & 2 half width</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<header class="header">
+				<h1 class="header__title">
+					Structure with 1 all width and 2 half width
+				</h1>
+				<p class="header__text">3 div in total, not less not more</p>
+			</header>
+			<section>
+				<h2>Inline-block solution</h2>
+				<div class="solution solution--font-size">
+					<div class="all all--font-size">
+						Parent font-size equal to 0 to avoid spaces between
+						inline-block elements so we have to specify the
+						font-size for each element...
+					</div>
+					<div class="half half--inline"></div>
+					<div class="half half--inline"></div>
+				</div>
+			</section>
+			<section>
+				<h2>Float left + margin-left solution</h2>
+				<div class="solution">
+					<div class="all">
+						Here there is no problem with the font-size but there
+						must be two different classes for the half blocks...
+					</div>
+					<div class="half half--float"></div>
+					<div class="half half--aside-float"></div>
+				</div>
+			</section>
+			<section class="conclusion">
+				<h2>Conclusion</h2>
+				<p class="conclusion__text">
+					&emsp;It is possible to arrange everything without using
+					more than 3 div.<br /><br />
+					&emsp;In fact use 1 more div to assembly the half elements
+					could be efficient for the inline-block solution, de facto
+					defining their font-size to 0 to be really clean...<br /><br />
+					&emsp;Flexbox could be a great solution but it would require
+					to use 1 more div to make sure there are only columns and
+					rows.
+				</p>
+			</section>
+			<footer class="footer">
+				<p class="footer__text">
+					Maxime Kerfourn -
+					<time class="footer__time" datetime="2021-09-09"
+						>09/09/2021</time
+					>
+				</p>
+			</footer>
+		</main>
+	</body>
+</html>

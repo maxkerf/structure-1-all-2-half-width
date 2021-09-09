@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	background-color: aliceblue;
+	font-family: "Glory", sans-serif;
+	color: #605c68;
+}
+
+section {
+	padding: 1rem;
+}
+
+h1,
+h2 {
+	margin-bottom: 1rem;
+	padding: 0 1rem;
+}
+
+.header {
+	padding: 1rem 0;
+	background-color: #605c68;
+	color: aliceblue;
+}
+
+.header__title {
+	margin-bottom: 0.5rem;
+}
+
+.header__text {
+	padding: 0 1rem;
+}
+
+.solution {
+	border: #928b9c solid 0.5rem;
+}
+
+.solution--font-size {
+	font-size: 0;
+}
+
+.all {
+	border: #b5838d solid 0.5rem;
+	background-color: #e5989b;
+	min-height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+}
+
+.all--font-size {
+	font-size: 1rem;
+}
+
+.half {
+	border: #ffb4a2 solid 0.5rem;
+	background-color: #ffcdb2;
+	height: 100px;
+	width: 50%;
+}
+
+.half--inline {
+	display: inline-block;
+}
+
+.half--float {
+	float: left;
+}
+
+.half--aside-float {
+	margin-left: 50%;
+}
+
+.conclusion__text {
+	text-align: justify;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.footer {
+	background-color: #605c68;
+	color: aliceblue;
+	padding: 1rem 0;
+	margin-top: 1rem;
+}
+
+.footer__text {
+	padding: 0 1rem;
+}
+
+.footer__time {
+	font-size: 0.875rem;
+}
