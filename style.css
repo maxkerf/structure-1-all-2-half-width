@@ -38,6 +38,8 @@ h2 {
 
 .solution {
 	border: #928b9c solid 0.5rem;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .solution--font-size {
